@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TennisGameSpec" tests="19" skipped="0" failures="0" errors="0" timestamp="2020-05-07T17:25:27" hostname="UKMLW3HYLVCG" time="0.144">
+  <properties/>
+  <testcase name="a tennis game takes 2 players starting on 0 points each" classname="TennisGameSpec" time="0.078"/>
+  <testcase name="when playerOne is on 1 and playerTwo is on 0: fifteen love is returned" classname="TennisGameSpec" time="0.03"/>
+  <testcase name="when playerOne is on 0 and playerTwo is on 1: love fifteen is returned" classname="TennisGameSpec" time="0.0"/>
+  <testcase name="when playerOne is on 1 and playerTwo is on 1: fifteen all is returned" classname="TennisGameSpec" time="0.0"/>
+  <testcase name="when playerOne is on 2 and playerTwo is on 1: thirty fifteen is returned" classname="TennisGameSpec" time="0.001"/>
+  <testcase name="when playerOne is on 1 and playerTwo is on 2: fifteen thirty is returned" classname="TennisGameSpec" time="0.0"/>
+  <testcase name="when playerOne is on 2 and playerTwo is on 2: thirty all is returned" classname="TennisGameSpec" time="0.0"/>
+  <testcase name="when playerOne is on 3 and playerTwo is on 2: forty thirty is returned" classname="TennisGameSpec" time="0.001"/>
+  <testcase name="when playerOne is on 2 and playerTwo is on 3: thirty forty is returned" classname="TennisGameSpec" time="0.0"/>
+  <testcase name="A player wins when they score 4 times whilst the other player scores 3 or less" classname="TennisGameSpec" time="0.002"/>
+  <testcase name="when both players are on 40 points each, deuce is retuned" classname="TennisGameSpec" time="0.0"/>
+  <testcase name="when a player scores whilst on deuce they gain advantage[0]" classname="TennisGameSpec" time="0.003"/>
+  <testcase name="when a player scores whilst on deuce they gain advantage[1]" classname="TennisGameSpec" time="0.008"/>
+  <testcase name="when a player scores whilst on deuce they gain advantage[2]" classname="TennisGameSpec" time="0.0"/>
+  <testcase name="when a player scores whilst on deuce they gain advantage[3]" classname="TennisGameSpec" time="0.001"/>
+  <testcase name="when a player scores on advantage they win[0]" classname="TennisGameSpec" time="0.003"/>
+  <testcase name="when a player scores on advantage they win[1]" classname="TennisGameSpec" time="0.0"/>
+  <testcase name="when a player scores on advantage they win[2]" classname="TennisGameSpec" time="0.0"/>
+  <testcase name="when a player scores on advantage they win[3]" classname="TennisGameSpec" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

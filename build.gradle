@@ -1,0 +1,16 @@
+plugins {
+    id 'groovy'
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'org.codehaus.groovy:groovy-all:2.5.5'
+    testCompile 'org.spockframework:spock-core:1.2-groovy-2.5'
+}
